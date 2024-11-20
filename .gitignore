@@ -30,12 +30,12 @@ yarn-error.*
 
 # local env files
 .env*.local
-.env/
 .env
 
 # typescript
 *.tsbuildinfo
 
-# firebase
-firebaseConfig.js
-metro.config.js
+
+/ios
+/android
+/serviceFiles

@@ -23,7 +23,7 @@ const LoginScreen = () => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
       if (user) {
         console.log("User logged in: ", user.email);
-        navigation.replace("Home");
+        navigation.replace("Permissions");
       } else {
         console.log("User logged out");
       }
